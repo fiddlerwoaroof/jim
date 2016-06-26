@@ -48,3 +48,5 @@ is not specified.  `tagName` specifies the kind of tag to be created.
 should handle.   If this is specified, you should either add functions with the
 corresponding name to the type or setup receivers that can handle the event
 using `addReceiver(receiver)`.
+
+Some of the example data comes from http://rtw.ml.cmu.edu/ppt/v+prep_svo-triples.txt.gz
