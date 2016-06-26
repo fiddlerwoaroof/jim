@@ -1,0 +1,57 @@
+/* Styles go here */
+h1 > li {
+  display: inline;
+}
+
+li.activated {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.current {
+  font-weight: bold;
+}
+
+.listbox {
+  width: 32%;
+  float: left;
+}
+
+button {
+  clear: both;
+}
+
+.listbox:first-child {
+  clear: left;
+}
+
+.listbox:last-child {
+  float: right;
+}
+
+ul,li {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.subject {
+  color: #880000;
+}
+
+.verb {
+  color: #888800;
+}
+
+.object {
+  color: #008800;
+}
+
+#sentence li {
+  display: inline;
+}
+
+#sentence li + li {
+  margin-left: 0.5em;
+}
